@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+data:
+  POSTGRES_HOST: "postgres.c60duhzptapm.us-east-1.rds.amazonaws.com"
+  POSTGRES_DB: "postgres"
+  AWS_BUCKET: "my-375179637757-project-bucket"
+  AWS_REGION: "us-east-1"
+  JWT_SECRET: "hello"
+  URL: "https://localhost:8100"
