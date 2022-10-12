@@ -43,3 +43,7 @@ venv/
 
 ## Prevent git from tracking set_env.sh file
 set_env.sh
+
+env-secret.yaml
+aws-secret.yaml
+env-configmap.yaml
